@@ -7,6 +7,7 @@
             <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Category</th>
                 <th>Slug</th>
                 <th>Client Name</th>
                 <th>Actions</th>
@@ -17,6 +18,7 @@
             <tr>
                 <td>{{ $project->id }}</td>
                 <td>{{ $project->name }}</td>
+                <td>{{ $project->type_id }}</td>
                 <td>{{ $project->slug }}</td>
                 <td>{{ $project->client_name }}</td>
                 <td>{{ $project->created_at }}</td>

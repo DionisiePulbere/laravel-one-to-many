@@ -14,6 +14,9 @@
         <strong>Slug:</strong> {{ $project->slug }}
     </div>
     <div>
+        <strong>Type:</strong> {{ $project->type ? $project->type->name : 'No type' }}
+    </div>
+    <div>
         <strong>Creato il:</strong> {{ $project->created_at }}
     </div>
     <div>
